@@ -25,9 +25,13 @@
 - Diagrams must be drawn by PlantUML.
 - Every diagram must have own file in docs/diagrams folder.
 
+### Commit Rules
+
+- Commit message prefix rule guideline: https://dev.to/puritanic/how-are-you-writing-a-commit-message-1ih7
+
 
 ## Installation
 
 - https://docs.microsoft.com/en-us/dotnet/maui/get-started/installation
 - You must uncomment the Windows TargetFrameworks from your .csproj file in order to enable windows development.
-- 
+
