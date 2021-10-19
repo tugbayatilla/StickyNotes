@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickyNotes.UI.WpfApp", "StickyNotes.UI.WpfApp\StickyNotes.UI.WpfApp.csproj", "{05C083C9-D127-43EC-A73A-FD3B57FCA53F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StickyNotes.UI.WpfApp", "StickyNotes.UI.WpfApp\StickyNotes.UI.WpfApp.csproj", "{05C083C9-D127-43EC-A73A-FD3B57FCA53F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickyNotes.Tests", "StickyNotes.Tests\StickyNotes.Tests.csproj", "{01691EAB-1FDA-4DB0-BE02-F860CCC37A8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StickyNotes.Model", "StickyNotes.Model\StickyNotes.Model.csproj", "{8D76EC72-67E9-461F-8EFA-12C16BFB1A63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickyNotes.Model", "StickyNotes.Model\StickyNotes.Model.csproj", "{8D76EC72-67E9-461F-8EFA-12C16BFB1A63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StickyNotes.Model.Tests", "StickyNotes.Model.Tests\StickyNotes.Model.Tests.csproj", "{C950A12D-F154-4478-847D-E247A2727813}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{05C083C9-D127-43EC-A73A-FD3B57FCA53F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05C083C9-D127-43EC-A73A-FD3B57FCA53F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05C083C9-D127-43EC-A73A-FD3B57FCA53F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{01691EAB-1FDA-4DB0-BE02-F860CCC37A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01691EAB-1FDA-4DB0-BE02-F860CCC37A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01691EAB-1FDA-4DB0-BE02-F860CCC37A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01691EAB-1FDA-4DB0-BE02-F860CCC37A8B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8D76EC72-67E9-461F-8EFA-12C16BFB1A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8D76EC72-67E9-461F-8EFA-12C16BFB1A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D76EC72-67E9-461F-8EFA-12C16BFB1A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D76EC72-67E9-461F-8EFA-12C16BFB1A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C950A12D-F154-4478-847D-E247A2727813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C950A12D-F154-4478-847D-E247A2727813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C950A12D-F154-4478-847D-E247A2727813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C950A12D-F154-4478-847D-E247A2727813}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
